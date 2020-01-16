@@ -13,6 +13,8 @@ def shift_by_k(s,k):
   shifted_s=[0 for i in range(len(s))]
   for i in range(len(s)):
     shifted_s[(i+k)%len(s)]=s[i]
-  return shifted_s
+  return "".join(shift_by_k('hacker',2))
   
 ```
+```
+2.
