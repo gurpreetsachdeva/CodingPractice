@@ -10,10 +10,11 @@ Guru,k=1 > uGur
 ## Code 1
 ```
 def shift_by_k(s,k):
-  shifted_s=[0 for i in range(len(s))]
-  for i in range(len(s)):
-    shifted_s[(i+k)%len(s)]=s[i]
-  return "".join(shift_by_k('hacker',2))
+  n=len(s)
+  shifted_s=[0 for i in range(n)]
+  for i in range(n):
+    shifted_s[(i+k)%n]=s[i]
+  return "".join(shifted_s)
   
 ```
 ```
