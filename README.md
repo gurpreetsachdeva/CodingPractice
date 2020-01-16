@@ -12,7 +12,7 @@ Guru,k=1 > uGur
 def shift_by_k(s,k):
   shifted_s=[0 for i in range(len(s))]
   for i in range(len(s)):
-    shifted_s[i]=s[(i+k)%len(s)]
+    shifted_s[(i+k)%len(s)]=s[i]
   return shifted_s
   
 ```
