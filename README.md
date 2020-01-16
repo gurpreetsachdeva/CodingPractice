@@ -3,7 +3,8 @@ Basic Coding Practice By Gurpreet
 ## Problems
 
 ```
-1. Write a program that manipulates a given string s by k characters.[Last values should wrap up in a circular fashion and length of the manipulated string remains same]
+1. Write a program that manipulates a given string s by k characters.[Last values should wrap up in a circular
+fashion and length of the manipulated string remains same]
 Guru,k=1 > uGur
 ```
 ## Code 1
